@@ -10,7 +10,7 @@ import (
 )
 
 type Executor interface {
-	Registry(user entities.Drug) error
+	Registry(drug entities.Drug) error
 	GetAllItems() ([]entities.Drug, error)
 	UpdateItem(id string, drug entities.Drug) error
 	Exist(id string) error

@@ -6,6 +6,5 @@ import (
 
 func NewServer() *fiber.App {
 	app := fiber.New()
-
 	return app
 }
